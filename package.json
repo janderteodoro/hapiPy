@@ -1,0 +1,26 @@
+{
+  "name": "hapipy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janderteodoro/hapiPy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janderteodoro/hapiPy/issues"
+  },
+  "homepage": "https://github.com/janderteodoro/hapiPy#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "hapi": "^18.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
