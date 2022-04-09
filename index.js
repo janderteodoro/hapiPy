@@ -8,7 +8,8 @@ const init = async (server) => {
     await server.start(); 
 
     Routes.homePageRoute(server);
-    Routes;contactRoute(server);
+    Routes.contactRoute(server);
+    Routes.registerContactRoute(server)
 
     process.on('unhandledRejection', (err) => {
     
