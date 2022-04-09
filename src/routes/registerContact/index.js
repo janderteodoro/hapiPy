@@ -3,7 +3,8 @@ const registerContactRoute = (server) => {
         method: 'POST', 
         path: '/registercontact', 
         handler: (request, h) => {
-            console.log('AQUIIIIIIIIIIII', h); 
+            const { headers, query } = request;
+            console.log(headers, '\n\n', query);
             return {
                 message: 'Register Contact'
             };
